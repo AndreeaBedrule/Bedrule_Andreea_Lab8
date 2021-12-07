@@ -17,5 +17,7 @@ namespace Bedrule_Andreea_Lab8.Data
         public DbSet<Bedrule_Andreea_Lab8.Models.Book> Book { get; set; }
 
         public DbSet<Bedrule_Andreea_Lab8.Models.Publisher> Publisher { get; set; }
+
+        public DbSet<Bedrule_Andreea_Lab8.Models.Category> Category { get; set; }
     }
 }
